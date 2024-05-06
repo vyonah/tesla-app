@@ -3,7 +3,7 @@
   become: true
   tasks:
     - name: Login in to Docker and Push Image
-      command: docker login -u princebabs -p Arsenal04
+      command: docker login -u princebabs -p 
     
     - name: Push Image to DockerHub
       command: docker push princebabs/tesla
